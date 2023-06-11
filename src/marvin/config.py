@@ -34,7 +34,7 @@ class LLMBackend(str, Enum):
     OpenAI = "OpenAI"
     AzureOpenAI = "AzureOpenAI"
     OpenAIChat = "OpenAIChat"
-    AzureOpenAIChat = "AzureOpenAIChat"
+    AzureChatOpenAI = "AzureChatOpenAI"
     Anthropic = "Anthropic"
     HuggingFaceHub = "HuggingFaceHub"
 

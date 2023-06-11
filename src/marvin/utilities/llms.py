@@ -109,7 +109,7 @@ def get_model(
         )
 
     # AzureChatOpenAI chat models
-    elif backend == LLMBackend.AzureOpenAIChat:
+    elif backend == LLMBackend.AzureChatOpenAI:
         from langchain.chat_models import AzureChatOpenAI
 
         return AzureChatOpenAI(
